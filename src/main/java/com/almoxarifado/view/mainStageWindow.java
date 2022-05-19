@@ -1,19 +1,15 @@
 package com.almoxarifado.view;
 
-import java.util.List;
-
-import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 public class mainStageWindow extends Stage {
 
-    // TODO Table e design do stage
+    // TODO Table e design to stage
 
     public Button insert;
     public Button selectall;

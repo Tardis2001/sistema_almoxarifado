@@ -3,7 +3,6 @@ package com.almoxarifado.controller.DAOProduct;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.sql.Statement;
 
 public class ConnectionFactory {
     // This returns SQLITE database
@@ -11,7 +10,7 @@ public class ConnectionFactory {
 
         Connection con = null;
         try {
-            String url = "jdbc:sqlite:Product.db";
+            String url = "jdbc:sqlite:database/Product.db";
 
             con = DriverManager.getConnection(url);
             Class.forName("org.sqlite.JDBC");

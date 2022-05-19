@@ -1,15 +1,10 @@
 package com.almoxarifado;
 
 import javafx.application.Application;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
 import java.io.IOException;
 
 import com.almoxarifado.controller.MainController;
-import com.almoxarifado.controller.DAOProduct.ConnectionFactory;
-import com.almoxarifado.controller.DAOProduct.DAOProduct;
-import com.almoxarifado.model.Product;
-
 /**
                                             ...                            
                                         ;::::;                           

@@ -8,13 +8,12 @@ import com.almoxarifado.view.mainStageWindow;
 
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.input.KeyCode;
 import javafx.stage.Stage;
 
 public class MainController {
-    mainStageWindow primaryStage;
-    DAOProduct daoProduct;
+    private mainStageWindow primaryStage;
+    private DAOProduct daoProduct;
 
     public MainController(String title, int width, int height) {
 
